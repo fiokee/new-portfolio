@@ -1,0 +1,12 @@
+body {
+    padding-top: 56px; /* Height of the navbar */
+  }
+  
+  .navbar {
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-collapse {
+    transition: height 0.3s ease;
+  }
+  

@@ -1,0 +1,21 @@
+.about-section {
+    padding: 60px 0;
+     background: linear-gradient(135deg, #667eea 0%, #FFA500 100%);
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .about-section h2 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  

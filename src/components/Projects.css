@@ -1,0 +1,24 @@
+.projects-section {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #667eea 0%, #FFA500 100%);
+  }
+  
+  .projects-section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .project-card {
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
