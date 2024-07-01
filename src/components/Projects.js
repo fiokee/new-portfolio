@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './Projects.css';
-import projectImg from '../assets/image_1.jpg'
+import projectImg from '../images/project1.png'
+import imag from '../images/ngo home.png';
 
 function Projects() {
   return (
@@ -11,7 +12,7 @@ function Projects() {
         <Row>
           <Col md={4} data-aos="zoom-in">
             <Card className="project-card">
-              <Card.Img variant="top" src={projectImg} />
+              <Card.Img variant="top" src={imag} />
               <Card.Body>
                 <Card.Title>Project One</Card.Title>
                 <Card.Text>
@@ -20,7 +21,8 @@ function Projects() {
                   A brief description of the project. 
                   A brief description of the project. 
                 </Card.Text>
-                <Button variant="primary" href="#">View Project</Button>
+                <Button variant="primary" href="#" className="button">View Project</Button>
+                <Button variant="primary" href="#" className="button-space">Github</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -34,7 +36,8 @@ function Projects() {
                 <Card.Text>
                   A brief description of the project. 
                 </Card.Text>
-                <Button variant="primary" href="#">View Project</Button>
+                <Button variant="primary" href="#" className="button" >View Project</Button>
+                <Button variant="primary" href="#" className="button-space">Github</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -47,7 +50,8 @@ function Projects() {
                 <Card.Text>
                   A brief description of the project. 
                 </Card.Text>
-                <Button variant="primary" href="#">View Project</Button>
+                <Button variant="primary" href="#" className="button">View Project</Button>
+                <Button variant="primary" href="#" className="button-space">Github</Button>
               </Card.Body>
             </Card>
           </Col>

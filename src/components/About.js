@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './About.css';
-import Profilepix from '../assets/profilepix1.png'
+import Profilepix from '../images/profilepix1.png'
 
 function About() {
   return (

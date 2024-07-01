@@ -21,4 +21,9 @@
     height: 200px;
     object-fit: cover;
   }
-  
+
+/* Projects.css */
+.button-space {
+  /* margin-right: 80px; */
+  float: right;
+}
