@@ -1,11 +1,14 @@
 .projects-section {
     padding: 60px 0;
-    background: linear-gradient(135deg, #667eea 0%, #FFA500 100%);
+    background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+    color: #fff;
   }
   
   .projects-section h2 {
     margin-bottom: 40px;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 900;
   }
   
   .project-card {

@@ -4,9 +4,26 @@ body {
   
   .navbar {
     transition: all 0.3s ease;
+    background-color: rgba(54, 19, 84, 0.6);
+    color: #fff;
   }
   
   .navbar-collapse {
     transition: height 0.3s ease;
+    color: #fff;
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important; /* Ensure nav links are visible */
+    font-size: 1.5rem; 
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
   }
   

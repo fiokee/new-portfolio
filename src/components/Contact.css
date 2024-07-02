@@ -1,11 +1,14 @@
 .contact-section {
     padding: 60px 0;
-    background-color: #dbdee0;
+    background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+    color: #fff;
   }
   
   .contact-section h2 {
     margin-bottom: 40px;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 900;
   }
   
   .contact-section form {
@@ -14,4 +17,30 @@
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .contact-section .social-icons a {
+    margin: 0 10px;
+    color: #000;
+    transition: color 0.3s ease;
+    display: inline-block;
+    animation: bounce 2s infinite;
+  }
+  
+  .contact-section .social-icons a:hover {
+    color: #fa9e1b;
+  }
+  
+  
   

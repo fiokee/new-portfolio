@@ -55,6 +55,48 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
+
+          <Col md={4} data-aos="zoom-in">
+            <Card className="project-card">
+              <Card.Img variant="top" src={projectImg} />
+              <Card.Body>
+                <Card.Title>Project One</Card.Title>
+                <Card.Text>
+                  A brief description of the project. 
+                </Card.Text>
+                <Button variant="primary" href="#" className="button">View Project</Button>
+                <Button variant="primary" href="#" className="button-space">Github</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={4} data-aos="zoom-in">
+            <Card className="project-card">
+              <Card.Img variant="top" src={projectImg} />
+              <Card.Body>
+                <Card.Title>Project One</Card.Title>
+                <Card.Text>
+                  A brief description of the project. 
+                </Card.Text>
+                <Button variant="primary" href="#" className="button">View Project</Button>
+                <Button variant="primary" href="#" className="button-space">Github</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={4} data-aos="zoom-in">
+            <Card className="project-card">
+              <Card.Img variant="top" src={projectImg} />
+              <Card.Body>
+                <Card.Title>Project One</Card.Title>
+                <Card.Text>
+                  A brief description of the project. 
+                </Card.Text>
+                <Button variant="primary" href="#" className="button">View Project</Button>
+                <Button variant="primary" href="#" className="button-space">Github</Button>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </section>
