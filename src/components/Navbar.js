@@ -16,7 +16,7 @@ function Navigation() {
 
   return (
     <Navbar bg="" variant="dark" expand="lg" fixed="top" expanded={expanded}>
-      <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+      <Navbar.Brand href="#home">SMLE</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">

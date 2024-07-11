@@ -14,7 +14,9 @@ function About() {
           <Col md={6} data-aos="fade-left">
             <h2>About Me</h2>
             <p>
-              I am a passionate web developer with experience in creating dynamic and responsive websites using modern technologies like ReactJS, Bootstrap, and more. I love building applications that are not only functional but also provide a great user experience.
+              My name is Effiong Samuel, I am a passionate web developer with experience in creating dynamic and responsive websites using modern technologies 
+              like ReactJS, Javasript, Nodejs,PHP, Html, Css,  Bootstrap, and more. I love building applications that are not only functional but also provide a great 
+              user experience.
             </p>
           </Col>
         </Row>
