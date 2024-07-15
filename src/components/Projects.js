@@ -82,8 +82,8 @@ function Projects() {
                 streamlined process for users to access the necessary information and services, ensuring a 
                 hassle-free experience for their travel needs. 
                 </Card.Text>
-                <Button variant="primary" href="#" className="button">View Project</Button>
-                <Button variant="" href="" target='_blank' className="button-space"> Github
+                <Button variant="primary" href="https://ruleflex-template-github-io.vercel.app/" target='_blank' className="button">View Project</Button>
+                <Button variant="https://github.com/fiokee/ruleflex-template.github.io" href="" target='_blank' className="button-space"> Github
                 <FaGithub size={40} />
                 </Button>
               </Card.Body>
@@ -101,8 +101,8 @@ function Projects() {
                 ongoing projects, and get involved in various charitable initiatives. The user-friendly interface 
                 ensures a seamless and engaging experience for donors and volunteers alike. 
                 </Card.Text>
-                <Button variant="primary" href="#" className="button">View Project</Button>
-                <Button variant="" href="" target='_blank' className="button-space"> Github
+                <Button variant="primary" href="https://ngo-website-dun.vercel.app/index.html" target='_blank' className="button">View Project</Button>
+                <Button variant="" href="https://github.com/fiokee/NGO-Website" target='_blank' className="button-space"> Github
                 <FaGithub size={40} />
                 </Button>
               </Card.Body>
