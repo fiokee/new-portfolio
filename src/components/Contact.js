@@ -38,10 +38,10 @@ function Contact() {
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                 <FaTwitter size={30} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/effiong-samuel-6b5a90208/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={30} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/fiokee" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={30} />
               </a>
             </div>

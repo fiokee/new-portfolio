@@ -7,6 +7,7 @@ import imag from '../images/ngo home.png';
 import Dictionary from "../images/web dic.png";
 import Country from '../images/country.png';
 import Ecomm from '../images/ecomm.png';
+import Marine from '../images/ephisans.png'
 
 function Projects() {
   return (
@@ -36,6 +37,24 @@ function Projects() {
 
           <Col md={4} data-aos="zoom-in">
             <Card className="project-card">
+              <Card.Img variant="top" src={Marine} />
+              <Card.Body>
+                <Card.Title>Ephesians-Marine</Card.Title>
+                <Card.Text>
+                A website that specialize in exporting high-quality marine and agricultural products. From fresh fish and catfish to snails, 
+                crayfish, banga, palm-kernel, Palm Oil, ogbono, vegetables, palm fruits, vessels and garri, our diverse range ensures you receive the finest products directly 
+                from our sources to your location
+                </Card.Text>
+                <Button variant="primary" href="https://ephesians-marine.vercel.app/index.html" target='_blank' className="button">View Project</Button>
+                <Button variant="" href="https://github.com/fiokee/ephesians-marine" target='_blank' className="button-space"> Github
+                <FaGithub size={40} />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={4} data-aos="zoom-in">
+            <Card className="project-card">
               <Card.Img variant="top" src={Ecomm} />
               <Card.Body>
                 <Card.Title>Dog-Bible</Card.Title>
@@ -55,24 +74,6 @@ function Projects() {
 
           <Col md={4} data-aos="zoom-in">
             <Card className="project-card">
-              <Card.Img variant="top" src={Country} />
-              <Card.Body>
-                <Card.Title>Rest Country</Card.Title>
-                <Card.Text>
-                This project is a web app built using ReactJS and styled with CSS. It allows users to search for 
-                any country and displays its population and capital city. The intuitive interface provides a quick and 
-                easy way to access essential information about countries around the world. 
-                </Card.Text>
-                <Button variant="primary" href="https://rest-country-app.web.app/" target='_blank' className="button">View Project</Button>
-                <Button variant="" href="https://github.com/fiokee/countries-Api.github.io" target='_blank' className="button-space"> Github
-                <FaGithub size={40} />
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col md={4} data-aos="zoom-in">
-            <Card className="project-card">
               <Card.Img variant="top" src={projectImg} />
               <Card.Body>
                 <Card.Title>RULEFLEX</Card.Title>
@@ -83,7 +84,7 @@ function Projects() {
                 hassle-free experience for their travel needs. 
                 </Card.Text>
                 <Button variant="primary" href="https://ruleflex-template-github-io.vercel.app/" target='_blank' className="button">View Project</Button>
-                <Button variant="https://github.com/fiokee/ruleflex-template.github.io" href="" target='_blank' className="button-space"> Github
+                <Button variant="" href="https://github.com/fiokee/ruleflex-template.github.io" target='_blank' className="button-space"> Github
                 <FaGithub size={40} />
                 </Button>
               </Card.Body>
@@ -109,21 +110,23 @@ function Projects() {
             </Card>
           </Col>
 
-          {/* <Col md={4} data-aos="zoom-in">
+          <Col md={4} data-aos="zoom-in">
             <Card className="project-card">
-              <Card.Img variant="top" src={projectImg} />
+              <Card.Img variant="top" src={Country} />
               <Card.Body>
-                <Card.Title>Project One</Card.Title>
+                <Card.Title>Rest Country</Card.Title>
                 <Card.Text>
-                  A brief description of the project. 
+                This project is a web app built using ReactJS and styled with CSS. It allows users to search for 
+                any country and displays its population and capital city. The intuitive interface provides a quick and 
+                easy way to access essential information about countries around the world. 
                 </Card.Text>
-                <Button variant="primary" href="#" className="button">View Project</Button>
-                <Button variant="" href="" target='_blank' className="button-space"> Github
+                <Button variant="primary" href="https://rest-country-app.web.app/" target='_blank' className="button">View Project</Button>
+                <Button variant="" href="https://github.com/fiokee/countries-Api.github.io" target='_blank' className="button-space"> Github
                 <FaGithub size={40} />
                 </Button>
               </Card.Body>
             </Card>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </section>
