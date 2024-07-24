@@ -32,17 +32,17 @@ function Contact() {
         <Row className="justify-content-center mt-4">
           <Col md={6} className="text-center">
             <div className="social-icons" data-aos="">
+            <a href="https://www.linkedin.com/in/effiong-samuel-6b5a90208/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={30} />
+              </a>
+              <a href="https://github.com/fiokee" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={30} />
+              </a>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <FaFacebook size={30} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                 <FaTwitter size={30} />
-              </a>
-              <a href="https://www.linkedin.com/in/effiong-samuel-6b5a90208/" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin size={30} />
-              </a>
-              <a href="https://github.com/fiokee" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={30} />
               </a>
             </div>
           </Col>
