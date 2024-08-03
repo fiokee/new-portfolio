@@ -8,6 +8,7 @@ import Dictionary from "../images/web dic.png";
 import Country from '../images/country.png';
 import Ecomm from '../images/ecomm.png';
 import Marine from '../images/ephisans.png'
+import Estate from '../images/house.png';
 
 function Projects() {
   return (
@@ -34,6 +35,24 @@ function Projects() {
             </Card>
           </Col>
           {/* Add more projects as needed */}
+
+          <Col md={4} data-aos="zoom-in">
+            <Card className="project-card">
+              <Card.Img variant="top" src={Estate} />
+              <Card.Body>
+                <Card.Title>Real Estate Listings</Card.Title>
+                <Card.Text>
+                A Next.js application designed for managing real estate properties. Features include adding new listings with images, 
+                removing listings, and filtering properties by type. The app utilizes Bootstrap for responsive design and local storage for data management, providing an intuitive and user-friendly interface for browsing real estate options.
+                </Card.Text>
+                <Button variant="primary" href="https://real-estate-app-beryl.vercel.app/" target='_blank' className="button">View Project</Button>
+                <Button variant="" href="https://github.com/fiokee/real-estate-app" target='_blank' className="button-space"> Github
+                <FaGithub size={40} />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
 
           <Col md={4} data-aos="zoom-in">
             <Card className="project-card">
